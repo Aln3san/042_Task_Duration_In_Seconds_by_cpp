@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="042_Task_Duration_In_Seconds_by_cpp.vcxproj" />
+</Solution>
