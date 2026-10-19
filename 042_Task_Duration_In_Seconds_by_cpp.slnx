@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="042_Task_Duration_In_Seconds_by_cpp.vcxproj" />
+  <Project Path="042_Task_Duration_In_Seconds_by_cpp.vcxproj" Id="c312a204-d272-43f7-aec4-932ff2a1535e" />
 </Solution>

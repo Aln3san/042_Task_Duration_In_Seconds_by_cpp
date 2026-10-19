@@ -2,6 +2,15 @@
 #include <cmath>
 
 using namespace std;
+
+unsigned TotalSeconds(float NumberOfDays, float NumberOfHours, float NumberOfMinutes, float NumberOfSeconds) {
+    return round(
+        (NumberOfDays * 24 * 60 * 60) + 
+        (NumberOfHours * 60 * 60) + 
+        (NumberOfMinutes * 60) + 
+        NumberOfSeconds);
+}
+
 int main()
 {
     float NumberOfDays, NumberOfHours, NumberOfMinutes, NumberOfSeconds;
@@ -11,11 +20,6 @@ int main()
     cout << "Number Of Minutes: ";cin >> NumberOfMinutes;
     cout << "Number Of Seconds: ";cin >> NumberOfSeconds;
 
-    unsigned int TotalSeocnds = round(
-        (NumberOfDays * 24 * 60 * 60) + 
-        (NumberOfHours * 60 * 60) + 
-        (NumberOfMinutes * 60) + 
-        NumberOfSeconds);
 
-	cout << "Total Seconds = " << TotalSeocnds << endl;
+	cout << "Total Seconds = " << TotalSeconds(NumberOfDays, NumberOfHours, NumberOfMinutes, NumberOfSeconds) << endl;
 }
